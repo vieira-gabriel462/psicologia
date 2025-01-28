@@ -696,399 +696,389 @@ li:hover{
     color: #0979fa;
     font-size: 0.9rem;
   }
-  @media (max-width: 1440px) {
+ @media (max-width: 1440px) {
+    .content {
+        padding: 0 90px;
+    }
+
+    #square-3 {
+        padding: 0 60px;
+    }
+
+    .testimonials-cards-container {
+        padding: 0 100px;
+    }
+
+    .post-content {
+        padding: 0 55px 0 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    header {
+        padding: 0 40px;
+    }
+
+    .destaks-container {
+        padding: 0 60px;
+    }
+
+    .testimonials-cards-container {
+        padding: 0 110px;
+    }
+
+    footer {
+        padding: 220px 60px 80px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .destaks-container {
+        padding: 0 20px;
+    }
+
+    .our-services-content {
+        padding: 0 40px;
+    }
 
     .content {
-      padding: 0 90px;
+        padding: 0 60px;
     }
-    
+
     #square-3 {
-      padding: 0 60px;
+        padding: 0 40px;
     }
-  
+
     .testimonials-cards-container {
-      padding: 0 100px;
+        padding: 0 50px;
     }
-  
-    .post-content {
-      padding: 0 55px 0 10px;
-    }
-  }
-  
-  @media (max-width: 1280px) {
-    header {
-      padding: 0 40px;
-    }
-  
-    .destaks-container {
-      padding: 0 60px;
-    }
-  
-    .testimonials-cards-container {
-      padding: 0 110px;
-    }
-  
-    footer {
-      padding: 220px 60px 80px 60px;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-  
-    .destaks-container {
-      padding: 0 20px;
-    }
-  
-    .our-services-content {
-      padding: 0 40px;
-    }
-  
-    .content {
-      padding: 0 60px;
-    }
-    
-    #square-3 {
-      padding: 0 40px;
-    }
-  
-    .testimonials-cards-container {
-      padding: 0 50px;
-    }
-  
+
     .form-content {
-      padding: 120px 20px 60px 20px
+        padding: 120px 20px 60px 20px;
     }
-  
+
     footer {
-      padding: 220px 30px 80px 30px;
+        padding: 220px 30px 80px 30px;
     }
-  
+
     .theme-posts {
-      width: 45%;
+        width: 45%;
     }
-  
+
     .post-content {
-      padding: 0 0 0 10px;
+        padding: 0 0 0 10px;
     }
-  
-  }
-  
-  @media(max-width: 835px) {
-  
+}
+
+@media (max-width: 835px) {
     nav {
-      display: none;
+        display: none;
     }
-  
-    #menu-icon {
-      display: block;
-    }
-  
-    .home-container {
-      background-position: 70% 50%;
-      align-items: center;
-    }
-  
-    .presentation-container {
-      width: 90%;
-      margin-top: 0;
-    }
-  
-    .destaks-container {
-      padding: 0 40px;
-      top: 150vh;
-    }
-    
-    .destaks-content {
-      grid-template-columns: repeat(1, 1fr);
-      row-gap: 10px;
-    }
-    
-    .content {
-      height: 300px;
-      row-gap: 10px;
-      padding: 0 20px;
-    }
-    
-    .welcome-container {
-      height: 160vh;
-    }
-  
-    .signature-text {
-      width: 95%;
-      height: 30%;
-      row-gap: 30px;
-      padding: 0 10px;
-    }
-  
-    .attorney-img {
-      margin-left: 10px;
-      width: 90%;
-    }
-  
-    .our-services-content {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .testimonials-container {
-      height: 100vh;
-    }
-  
-    .testimonials-cards-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    #card-1 {
-      display: none;
-    }
-  
-    #card-2 {
-      display: none;
-    }
-  
-    .form-container {
-      flex-direction: column;
-    }
-  
-    .form-img {
-      height: 30%;
-      width: 100%;
-    }
-  
-    .form-content {
-      width: 100%;
-      height: 70%;
-      padding: 120px 40px 60px 40px;
-      row-gap: 30px;
-    }
-  
-    footer {
-      padding: 100px 40px 0 40px;
-      height: 90vh;
-    }
-  
-    .footer-content {
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    .about-text {
-      width: 100%;
-      height: 40%;
-    }
-  
-    .theme-posts {
-      width: 100%;
-      height: 45%;
-    }
-  
-    .post-content {
-      padding: 0 140px 0 10px;
-    }
-  
-  }
-  
-  @media (max-width: 768px) {
-  
-    .welcome-container {
-      height: 180vh;
-    }
-  
-    .attorney-img {
-      margin-left: 0;
-    }
-    .attorney-container {
-      width: 55%;
-    }
-  
-    .signature-content {
-      width: 45%;
-    }
-  
-    footer {
-      height: 110vh;
-    }
-  }
-  
-  @media (max-width: 600px) {
-  
-    .welcome-container {
-      height: 240vh;
-    }
-  
-    .signature-container {
-      flex-direction: column;
-      justify-content: end;
-    }
-  
-    .signature-content {
-      width: 95%;
-      height: 25%;
-      justify-content: end;
-    }
-  
-    .attorney-container {
-      width: 95%;
-      height: 30%;
-      justify-content: center;
-    }
-  
-    .attorney-img {
-      width: auto;
-    }
-    
-    .our-services-content {
-      padding: 0 10px 0 20px;
-    }
-  
-    .our-services-text {
-      width: 95%;
-      padding: 20px 10px 0 10px;
-    }
-  
-  }
-  
-  @media (max-width: 415px) {
-  
-    header {
-      padding: 0 10px;
-    }
-  
-    .home-container {
-      background-position: 70% 50%;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .presentation-container {
-      width: 100%;
-      height: 60%;
-    }
-    
-    .presentation-container h3 {
-      text-align: center
-    }
-    
-    .presentation-container h1 {
-      font-size: 3rem;
-    }
-  
-    .destaks-container {
-      padding: 0 10px;
-    }
-  
-    .welcome-container {
-     height: 2050px;
-     align-items: end;
-    }
-  
-    .signature-content {
-      height: 600px;
-    }
-  
-    .signature-text {
-      width: 95%;
-      height: 90%;
-      row-gap: 10px;
-      margin-bottom: 10px;
-    }
-  
-    .attorney-container {
-      height: 400px;
-    }
-  
-    .attorney-img {
-      margin-left: 10px;
-      width: 90%;
-      height: 390px;
-    }
-  
-    .our-services-container {
-      height: 1550px;
-    }
-  
-    .our-services-title {
-      margin-top: 120px;
-      padding-top: 20px;
-      height: 15%;
-    }
-  
-    .our-services-title h1 {
-      text-align: center;
-    }
-  
-    #our-services-divider {
-      width: 30%;
-    }
-  
-    .our-services-content {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-    .testimonials-container {
-      height: 130vh;
-    }
-  
-    .testimonials-cards-container {
-      padding: 0 5px;
-    }
-  
-    .testimonials-title h1 {
-      font-size: 2.5rem;
-    }
-  
-    .cards {
-      margin-bottom: 20px;
-    }
-  
-    .form-container {
-      height: 200vh;
-    }
-  
-    .form-content {
-      padding: 120px 10px 60px 10px;
-    }
-  
-    .form-title h2 {
-      font-size: 1rem;
-    }
-  
-    .form-title h1 {
-      font-size: 2rem;
-    }
-  
-    footer {
-      padding: 50px 10px 0 10px;
-      height: 150vh;
-    }
-  
-    .footer-content {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .about-text {
-      width: 100%;
-      height: 40%;
-      row-gap: 20px;
-    }
-  
-    .theme-posts {
-      width: 100%;
-      height: 45%;
-    }
-  
-    .post-content {
-      padding: 0 10px;
-    }
-  
-  }
 
+    #menu-icon {
+        display: block;
+    }
+
+    .home-container {
+        background-position: 70% 50%;
+        align-items: center;
+    }
+
+    .presentation-container {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .destaks-container {
+        padding: 20px;
+        margin-top: 20px; /* Resolve sobreposição */
+        position: relative;
+    }
+
+    .destaks-content {
+        display: flex;
+        flex-direction: column; /* Itens em coluna */
+        gap: 20px; /* Espaço entre itens */
+    }
+
+    .welcome-container {
+        height: auto; /* Altura automática */
+        margin-bottom: 40px; /* Espaço inferior */
+        padding: 20px;
+    }
+
+    .signature-text {
+        width: 95%;
+        height: 30%;
+        row-gap: 30px;
+        padding: 0 10px;
+    }
+
+    .attorney-img {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .our-services-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonials-container {
+        height: auto;
+    }
+
+    .testimonials-cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #card-1 {
+        display: none;
+    }
+
+    #card-2 {
+        display: none;
+    }
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-img {
+        height: 30%;
+        width: 100%;
+    }
+
+    .form-content {
+        width: 100%;
+        height: 70%;
+        padding: 120px 40px 60px 40px;
+        row-gap: 30px;
+    }
+
+    footer {
+        padding: 100px 40px 0 40px;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .theme-posts {
+        width: 100%;
+        height: auto;
+    }
+
+    .post-content {
+        padding: 0 10px;
+    }
+}
 
 @media (max-width: 768px) {
     header {
         display: none;
     }
+
+    .welcome-container {
+        height: auto;
+    }
+
+    .attorney-img {
+        margin-left: 0;
+    }
+
+    .attorney-container {
+        width: 55%;
+    }
+
+    .signature-content {
+        width: 45%;
+    }
+
+    footer {
+        height: auto;
+    }
 }
+
+@media (max-width: 600px) {
+    .welcome-container {
+        height: auto;
+    }
+
+    .signature-container {
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .signature-content {
+        width: 95%;
+        height: 25%;
+        justify-content: end;
+    }
+
+    .attorney-container {
+        width: 95%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .attorney-img {
+        width: auto;
+    }
+
+    .our-services-content {
+        padding: 0 10px 0 20px;
+    }
+
+    .our-services-text {
+        width: 95%;
+        padding: 20px 10px 0 10px;
+    }
+}
+
+@media (max-width: 415px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .home-container {
+        background-position: 70% 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .presentation-container {
+        width: 100%;
+        height: 60%;
+    }
+
+    .presentation-container h3 {
+        text-align: center;
+    }
+
+    .presentation-container h1 {
+        font-size: 3rem;
+    }
+
+    .destaks-container {
+        padding: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .welcome-container {
+        height: auto;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .signature-content {
+        height: auto;
+    }
+
+    .signature-text {
+        width: 95%;
+        height: auto;
+        row-gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .attorney-container {
+        height: auto;
+    }
+
+    .attorney-img {
+        margin-left: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .our-services-container {
+        height: auto;
+    }
+
+    .our-services-title {
+        margin-top: 120px;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .our-services-title h1 {
+        text-align: center;
+    }
+
+    #our-services-divider {
+        width: 30%;
+    }
+
+    .our-services-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonials-container {
+        height: auto;
+    }
+
+    .testimonials-cards-container {
+        padding: 0 5px;
+    }
+
+    .testimonials-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .cards {
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        height: auto;
+    }
+
+    .form-content {
+        padding: 120px 10px 60px 10px;
+    }
+
+    .form-title h2 {
+        font-size: 1rem;
+    }
+
+    .form-title h1 {
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 50px 10px 0 10px;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+        height: auto;
+        row-gap: 20px;
+    }
+
+    .theme-posts {
+        width: 100%;
+        height: auto;
+    }
+
+    .post-content {
+        padding: 0 10px;
+    }
+}
+
